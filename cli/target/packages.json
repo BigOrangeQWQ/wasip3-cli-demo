@@ -1,0 +1,1280 @@
+{
+  "source_dir": "/Users/liguosheng/projects/wasip3-cli-demo/cli",
+  "name": "wasi/cli",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/types",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/sockets/types",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/types/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/types/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/sockets/types/types.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/ipNameLookup",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/sockets/ipNameLookup",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/ipNameLookup/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/ipNameLookup/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/sockets/types",
+          "alias": "types",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/sockets/types"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/sockets/ipNameLookup/ipNameLookup.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/monotonicClock",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/clocks/monotonicClock",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/monotonicClock/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/monotonicClock/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/clocks/monotonicClock/monotonicClock.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/types",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/clocks/types",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/types/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/types/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/clocks/types/types.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/wallClock",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/clocks/wallClock",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/wallClock/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/wallClock/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/clocks/wallClock/wallClock.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/types",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/filesystem/types",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/types/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/types/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/clocks/wallClock",
+          "alias": "wallClock",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/clocks/wallClock"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/filesystem/types/types.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/preopens",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/filesystem/preopens",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/preopens/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/preopens/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/filesystem/types",
+          "alias": "types",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/filesystem/types"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/filesystem/preopens/preopens.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdout",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/terminalStdout",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdout/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdout/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/terminalOutput",
+          "alias": "terminalOutput",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalOutput"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/terminalStdout/terminalStdout.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/types",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/types/types.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/stdout",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/types",
+          "alias": "types",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/stdout/stdout.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stderr",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/stderr",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stderr/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stderr/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/types",
+          "alias": "types",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/stderr/stderr.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalOutput",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/terminalOutput",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalOutput/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalOutput/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/terminalOutput/terminalOutput.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStderr",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/terminalStderr",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStderr/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStderr/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/terminalOutput",
+          "alias": "terminalOutput",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalOutput"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/terminalStderr/terminalStderr.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalInput",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/terminalInput",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalInput/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalInput/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/terminalInput/terminalInput.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/stdin",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/types",
+          "alias": "types",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/types"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/stdin/stdin.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdin",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/terminalStdin",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdin/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalStdin/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/terminalInput",
+          "alias": "terminalInput",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/terminalInput"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/terminalStdin/terminalStdin.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/environment",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/environment",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/environment/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/environment/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/environment/environment.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/exit",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/cli/exit",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/exit/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/exit/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/cli/exit/exit.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecure",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/random/insecure",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecure/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecure/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/random/insecure/insecure.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecureSeed",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/random/insecureSeed",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecureSeed/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/insecureSeed/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/random/insecureSeed/insecureSeed.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/random",
+      "root": "wasi/cli",
+      "rel": "interface/wasi/random/random",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/random/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/random/random/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/interface/wasi/random/random/random.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/world/command",
+      "root": "wasi/cli",
+      "rel": "world/command",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/world/command/ffi_import.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/world/command/import.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/world/command/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/world/command/command.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen",
+      "root": "wasi/cli",
+      "rel": "gen",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/world_command_export.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/gen_interface_wasi_cli_run_export.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/gen/interface/wasi/cli/run",
+          "alias": "run",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/interface/wasi/cli/run"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/stdin",
+          "alias": "stdin",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/stdout",
+          "alias": "stdout",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/gen/gen.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/interface/wasi/cli/run",
+      "root": "wasi/cli",
+      "rel": "gen/interface/wasi/cli/run",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/interface/wasi/cli/run/stub.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/interface/wasi/cli/run/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/stdin",
+          "alias": "stdin",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin"
+        },
+        {
+          "path": "wasi/cli/interface/wasi/cli/stdout",
+          "alias": "stdout",
+          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/gen/interface/wasi/cli/run/run.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/world/command",
+      "root": "wasi/cli",
+      "rel": "gen/world/command",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/world/command/stub.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/gen/world/command/command.mi"
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi",
+      "root": "wasi/cli",
+      "rel": "ffi",
+      "files": {
+        "/Users/liguosheng/projects/wasip3-cli-demo/cli/ffi/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wasip3-cli-demo/cli/target/wasm/release/check/ffi/ffi.mi"
+    }
+  ],
+  "deps": [],
+  "backend": "wasm",
+  "opt_level": "release",
+  "source": null
+}

@@ -1,0 +1,37 @@
+export const snapshot = {};
+
+snapshot[`arg_get 1`] = `""`;
+
+snapshot[`environ_get 1`] = `""`;
+
+snapshot[`fd_fdstat_get 1`] = `
+"{fs_filetype: Unknown, fs_flags: FdFlags(0), fs_rights_base: Rights(64), fs_rights_inheriting: Rights(64)}
+{fs_filetype: Directory, fs_flags: FdFlags(0), fs_rights_base: Rights(129498624), fs_rights_inheriting: Rights(267911167)}
+"
+`;
+
+snapshot[`fd_prestat_dir_name 1`] = `
+"Accessing 3 got .
+Accessing 4 got test
+Error: Accessing 5 got Badf
+"
+`;
+
+snapshot[`fd_read 1`] = `"hello"`;
+
+snapshot[`fd_read 2`] = `"hello, this is a longer sentence, as a quick brown fox jumps ove"`;
+
+snapshot[`fd_readdir 1`] = `
+'[". ~> Directory", ".. ~> Directory", "moon.mod.json ~> Regular_file"]
+["fd_fdstat_get ~> Directory", "args_get ~> Directory"]
+["fd_readdir ~> Directory", "poll_oneoff ~> Directory", "target ~> Directory"]
+[".mooncakes ~> Directory", "fd_prestat_dir_name ~> Directory"]
+["environ_get ~> Directory", "fd_write ~> Directory", "fd_read ~> Directory"]
+["proc_exit ~> Directory"]
+'
+`;
+
+snapshot[`fd_write 1`] = `
+"Hello
+Size(6)"
+`;

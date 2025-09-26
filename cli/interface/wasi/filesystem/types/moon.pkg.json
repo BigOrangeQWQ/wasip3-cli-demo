@@ -1,0 +1,1 @@
+{ "import": [{ "path" : "wasi/cli/ffi", "alias" : "ffi" }, { "path" : "wasi/cli/interface/wasi/clocks/wallClock", "alias" : "wallClock" }] }

@@ -1,0 +1,8 @@
+{ "import": [
+    {
+      "path": "wasi/cli/ffi",
+      "alias": "ffi"
+    },
+    "wasi/cli/interface/wasi/cli/stdin",
+    "wasi/cli/interface/wasi/cli/stdout"
+  ] }

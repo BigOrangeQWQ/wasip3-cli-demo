@@ -1,0 +1,22 @@
+
+{
+      "link": {
+            "wasm": {
+                  "exports": ["cabi_realloc:cabi_realloc", "wasmExportAsyncRun:[async-lift]wasi:cli/run@0.3.0-rc-2025-09-16#[async]run", "wasmExportworldCommandAsyncAsyncRun:[callback][async-lift]wasi:cli/run@0.3.0-rc-2025-09-16#[async]run"],
+                  "export-memory-name": "memory",
+                  "heap-start-address": 16
+            }
+      }
+      ,"import": [
+        {
+          "path": "wasi/cli/ffi",
+          "alias": "ffi"
+        },
+        {
+          "path": "wasi/cli/gen/interface/wasi/cli/run",
+          "alias": "run"
+        },
+        "wasi/cli/interface/wasi/cli/stdin",
+        "wasi/cli/interface/wasi/cli/stdout"
+      ]
+}

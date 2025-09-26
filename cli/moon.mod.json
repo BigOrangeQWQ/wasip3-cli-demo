@@ -1,0 +1,1 @@
+{ "name": "wasi/cli", "preferred-target": "wasm"}

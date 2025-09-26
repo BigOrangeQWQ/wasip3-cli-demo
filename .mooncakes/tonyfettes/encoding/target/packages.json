@@ -1,0 +1,119 @@
+{
+  "source_dir": "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding",
+  "name": "tonyfettes/encoding",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src",
+      "root": "tonyfettes/encoding",
+      "rel": "",
+      "files": {
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/encoding.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/decoding.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/encoding_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/decoding_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "test-files": {
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/decoding_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/src/encoding_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/liguosheng/projects/wit-bindgen/test-gen/.mooncakes/tonyfettes/encoding/target/wasm-gc/release/check/encoding.mi"
+    }
+  ],
+  "deps": [],
+  "backend": "wasm-gc",
+  "opt_level": "release",
+  "source": "src"
+}
