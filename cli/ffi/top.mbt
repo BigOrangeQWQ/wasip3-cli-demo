@@ -1300,7 +1300,6 @@ pub fn[T : Waitable] Task::remove_waitable(self : Self, state : T) -> Unit {
 
 ///|
 pub fn[T : Waitable] Task::drop_waitable(self : Self, state : T) -> Unit {
-  self.remove_waitable(state)
   let _ = state.drop()
   if self.resources.search(state.handle()) is Some(idx) {
     let _ = self.resources.remove(idx)
