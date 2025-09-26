@@ -15,8 +15,6 @@
         {
           "path": "wasi/cli/gen/interface/wasi/cli/run",
           "alias": "run"
-        },
-        "wasi/cli/interface/wasi/cli/stdin",
-        "wasi/cli/interface/wasi/cli/stdout"
+        }
       ]
 }

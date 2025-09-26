@@ -1140,16 +1140,6 @@
           "path": "wasi/cli/gen/interface/wasi/cli/run",
           "alias": "run",
           "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/gen/interface/wasi/cli/run"
-        },
-        {
-          "path": "wasi/cli/interface/wasi/cli/stdin",
-          "alias": "stdin",
-          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdin"
-        },
-        {
-          "path": "wasi/cli/interface/wasi/cli/stdout",
-          "alias": "stdout",
-          "fspath": "/Users/liguosheng/projects/wasip3-cli-demo/cli/interface/wasi/cli/stdout"
         }
       ],
       "wbtest-deps": [],
